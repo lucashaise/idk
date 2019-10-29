@@ -1,0 +1,30 @@
+#calculadora
+
+add = "+"
+sub = "-"
+mult = "x"
+div = "/"
+
+
+variavel = float(input('valor um :  '))
+addoperacao = input('operacao:  ')
+variavel2 = float(input('valor dois:  '))
+
+#opcao1 com base nas variaeis ali em cima
+if(addoperacao == add):
+ print (variavel + variavel2)
+elif(addoperacao == sub):
+ print (variavel - variavel2)
+elif(addoperacao == mult):
+ print(variavel * variavel2)
+
+
+#opcap2
+if(addoperacao == '+'):
+ print (variavel + variavel2)
+elif(addoperacao == '-'):
+ print (variavel - variavel2)
+elif(addoperacao == 'x'):
+ print(variavel * variavel2)
+elif(addoperacao == '/'):
+  print (variavel / variavel2)
