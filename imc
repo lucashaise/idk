@@ -1,0 +1,22 @@
+#peso, altura, resultado(abaixo peso, etc, intervalos de valores)
+#homework
+#altura x altura e o peso divide pelo quadrado da altura
+
+altura = float(input("imput your hight: "))
+weight = float(input("input your weight:  "))
+imc = altura*altura
+imc2 = weight/imc
+print(imc2)
+
+if imc2 <= 18.4:
+  print('since u got:', imc2, 'you are underweight' 'ノಠ_ಠノ')
+elif imc2 >= 18.5 and imc2 <= 24.9:
+  print('since u got:', imc2, 'you are cool' '(^○^)')
+elif imc2 >= 25 and imc2 <= 29.9:
+  print('since u got:', imc2, 'you a lil overweight' '◑.◑')
+elif imc2 >= 30 and imc2 <= 34.9:
+  print("since u got:", imc2, 'you have class one obesity''（￣□￣；）' )
+elif imc2 >= 35 and imc2 <= 39.9:
+  print('since u got:', imc2, 'you have class two obesity' '(ﾟωﾟ;)')
+elif imc2 >= 40:
+  print('since u got:', imc2, 'you have class 3 obesity' '(´・ω・｀)')
