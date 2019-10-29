@@ -1,0 +1,12 @@
+pecaum = float(input("  peso em kg"))
+pecadois = float(input("  peso em kg"))
+pecatres = float(input("  peso em kg"))
+pesomedio = ((pecaum + pecadois + pecatres) / 3)
+print ('PESO  MEDIO ', pesomedio )
+
+if (pecaum > pesomedio):
+  print (pecaum, '  primeiro valor esta acima do peso medio')
+if (pecadois > pesomedio):
+  print (pecaum, '  segundo valor esta acima do peso medio')
+if (pecatres > pesomedio):
+  print (pecatres, '  treceiro valor esta acima do peso medio')
