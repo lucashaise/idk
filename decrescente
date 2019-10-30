@@ -1,0 +1,21 @@
+a = float(input('valor 1  '))
+b = float(input('valor 2  '))
+c = float(input('valor 3  '))
+
+if a >= b and a >= c:
+  if b >= c:
+    print ('a ordem decrescente é  ', a, b, c)
+  else:
+    print ('a ordem decrescente é  ', a, c, b)
+#se vai para o elif ja sabe q 'a' nao é o maior
+elif b>=c:
+  if a>=c:
+    print ('a ordem decrescente é  ', b, a, c)
+  else:
+    print ('a ordem decrescente é  ', b, c, a)
+#se vai para o elif ja sabe q 'b' nao é o maior
+elif c>=a:
+  if a>=b:
+      print ('a ordem decrescente é  ', c, a, b)
+  else:
+    print ('a ordem decrescente é  ', c, b, a)
