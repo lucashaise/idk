@@ -1,0 +1,25 @@
+print()
+
+one = float(input('input grade one: '))
+two = float(input('input grade two: '))
+tree = float(input('input grade tree: '))
+media= (one+two+tree)/3
+
+print()
+
+
+if media == 10:
+  print ('sua media foi: ' + str(media))
+  print('status: aprovado com distinçao')
+  
+elif media < 7:
+  print ('sua media foi: ' + str(media))
+  print('status: reprovado')
+  
+elif media < 10:
+  print ('sua media foi: ' + str(media))
+  print('status: aprovado')
+  
+elif media > 10:
+  print('erro')
+  print('verifique suas informaçoes e tente novamente')
