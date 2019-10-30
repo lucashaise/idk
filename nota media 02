@@ -1,0 +1,9 @@
+valor = []
+for x in range(5):
+    valor.append(float(input('digite valor ')))
+ 
+soma = 0
+for x in valor:
+  soma = soma + x
+  media = soma/5
+print(media)
