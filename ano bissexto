@@ -1,0 +1,26 @@
+ano = int(input(' digite uma ano: '))
+
+
+if (ano % 400 == 0):
+  print(str(ano) + '  é um ano bissexto')
+elif (ano % 100 == 0):
+  print(str(ano) + '  nao é bissexto')
+elif (ano %4 ==0):
+  print(str(ano) + '  é um ano bissexto')
+else:
+  (print (str(ano) + '  nao é bissexto'))
+
+
+#str junta a variavel ao texto de maneira bunitinha
+
+
+
+
+#modo alternativo
+
+#     ano = int(input('digite um ano: '))
+
+#     if((ano %4 ==0 and ano%100 !=0) or (ano%400 ==0)):
+#       print (ano, "  é um ano bissexto")
+#     else:
+#        print (ano, 'nao é bissexto')
