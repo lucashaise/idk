@@ -1,0 +1,19 @@
+#populaçao A = 80000 e crescimento = 3%
+#populaçao B = 200000 e crescimento = 1,5%
+#quando B passara A?
+
+# 3% = 0.03 (3/100)--------- 1.5/100=0.015
+
+A= 80000
+B= 200000
+TxA= 1.03
+TxB = 1.015
+ano = 0
+while(A<B):
+  #multiplica pela taxa de cresimento
+  A = A * TxA
+  B = B * TxB
+  ano = ano + 1
+print('populaçao A: ', A)
+print('populaçao B: ', B)
+print('B passara A em ' + str(ano) + ' anos')
