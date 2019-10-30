@@ -1,0 +1,34 @@
+#vetores ou listas []
+#variavel com varias "casinhas"
+#cada casinha possui um indice começando por 0
+
+#append = vai adicionando valores no fim, funçao do vetor para adicionar valores dentro dele, ao final em sequencia
+
+# se eu tenho um vetor eu tenho uma estrutura de repetiçao para criar e uma para navegar e pegar os valores
+
+# 'x' é um contador, neste caso ele seria a casinha
+
+# range vai 0,1,2,3
+# x vai na lista
+
+#input é para caractere, na ha contas
+
+notas=[]
+#valo decidido, logo se usa for
+for x in range(4):
+  #vai de 0 ate 99
+  notas.append(float(input('digite a nota: '))
+
+soma = 0
+for x in range(4):
+    soma = soma + notas[x]
+
+media = soma/4
+
+
+#phyton way
+
+notas=[]
+
+for x in notas:
+  soma = soma + x
