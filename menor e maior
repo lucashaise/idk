@@ -1,0 +1,31 @@
+valor1 = float(input('valor um:  '))
+valor2 = float(input('valor dois:  '))
+valor3 = float(input('valor tres:  '))
+
+#menor
+
+menor = valor1
+
+
+if valor2 < menor and valor2 < valor3:
+  menor = valor2
+  
+if valor3 < menor and valor3 < valor2:
+  menor = valor3
+
+#Maior
+  
+
+maior = valor1
+
+
+if valor2 > maior and valor2 > valor3:
+  maior = valor2
+  
+if valor3 > maior and valor3 > valor2:
+  maior = valor3
+
+#resultado  
+
+print ('o menor é {}' .format(menor))
+print ('o maior é {}' .format(maior))
