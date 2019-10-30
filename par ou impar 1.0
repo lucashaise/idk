@@ -1,0 +1,10 @@
+obras = float(input(' numero de obras'))
+sobra = obras % 2
+
+if sobra == 0:
+  print ('total de obras é par')
+else: 
+  print ('o total foi impar, vacilao') 
+
+
+#numa divisao se o resto for = 0, o numero é par
