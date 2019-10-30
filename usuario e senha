@@ -1,0 +1,13 @@
+# while permire repetir quantas vezes quiser
+#   se usar "for" impoem um limite, por exemplo dar um maximo de tentativas
+
+
+usuario = input('usuario:  ')
+senha = input('senha:  ')
+
+while (usuario == senha):
+  print('ERRO: senha e usuario nao podem er iguais')
+  usuario = input('usuario:  ')
+  senha = input('senha:  ')
+
+print ('acesso garantido')
