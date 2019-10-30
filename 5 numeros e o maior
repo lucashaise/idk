@@ -1,0 +1,35 @@
+#pra navegar e preenxer vetor usa for 
+
+valor = []
+for x in range(5):
+  
+  valor.append(float(input('digite valor ')))
+  valor.append(float(input('digite valor ')))
+  valor.append(float(input('digite valor ')))
+  valor.append(float(input('digite valor ')))
+  valor.append(float(input('digite valor ')))
+
+
+  if valor[0]>valor[1] and valor[0]>valor[2] and valor[0]>valor[3] and valor[0]>valor[4]:
+    print('o maior é o valor um')
+  elif valor[1]>valor[0] and valor[1]>valor[2] and valor[1]>valor[3] and valor[1]>valor[4]:
+    print('o maior é o valor dois')
+  elif valor[2]>valor[1] and valor[2]>valor[0] and valor[2]>valor[3] and valor[2]>valor[4]:
+    print('o maior é o valor tres')
+  elif valor[3]>valor[1] and valor[3]>valor[0] and valor[3]>valor[2] and valor[3]>valor[4]:
+    print('o maior é o valor e o quarto')
+  else:
+    print("o maior valor é o quinto")
+
+#professors way
+
+valor = []
+for x in range(5):
+    valor.append(float(input('digite valor ')))
+
+maior = valor[0]
+for x in range(5):
+  if (valor[x]> maior):
+    maior = valor[x]
+    
+print(maior)
