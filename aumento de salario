@@ -1,0 +1,17 @@
+salario = float(input('coloque seu salario:  '))
+
+if salario <= 280:
+  percentual = 20
+elif salario <= 700:
+  percentual = 15
+elif salario <= 1500:
+  percentual = 10
+elif salario >1500:
+  percentual = 5
+
+
+aumento = salario*(percentual/100)
+novo = salario + aumento
+
+
+print('seu salario era R$' + str(salario) + 'com aumento de ' + str(percentual) + "% que equivale a R$" + str(aumento) + ' ficou igual a R$' + str(novo))
